@@ -5,7 +5,7 @@ int main() {
     scanf("%d", &n);
     int count = 2 * (n-1);
     for (int i = 0; i < n; i++){
-        for (int z = 0; z < count; z++){
+        for (int z = 0; z < 2 * (n-i) - 2; z++){
             printf(" ");
         }
         count = count - 2;
